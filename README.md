@@ -1,6 +1,6 @@
 ## Minimal iOS 6
 
-Chroot container with iOS 6 *really* clean enviroment. Just 9,7 MiB! (and 1.4 MiB zipped!)
+Chroot container with *really* unbloated iOS 6. 9,7 MiB uncompressed, 1,5 MiB compressed (tar.xz, standard xz level settings)
 
 ## How to run it
 
@@ -15,7 +15,7 @@ You can install additional files from iOS 6.1 SDK.
 ## What's included
 
 1. dyld, libSystem, libc++abi, libobjc, libstdc++, some system libs, ~libgcc~
-2. ~Debian `dash`~ Open Korn Shell
+2. ~Debian `dash`~ OpenBSD Korn Shell
 
 ## example. just a joke 
 
@@ -31,6 +31,6 @@ You can install additional files from iOS 6.1 SDK.
 
 ## Changelog
 
-Removed libgcc_s. Removed dash. Now we use oksh with only libSystem depend
+Removed libgcc_s. Removed dash
 
 Now you can run MBiOS with `make`. Just because I could add it. Why not?
