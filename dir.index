@@ -1,0 +1,41 @@
+.
+├── LICENSE
+├── Makefile
+├── README.md
+├── bin -> usr/bin
+├── dir.index
+└── usr
+    ├── bin
+    │   └── sh
+    └── lib
+        ├── dyld
+        ├── libSystem.B.dylib
+        ├── libc++abi.dylib
+        ├── libcommonCrypto.dylib
+        ├── libobjc.A.dylib
+        ├── libstdc++.6.dylib
+        └── system
+            ├── libcache.dylib
+            ├── libcompiler_rt.dylib
+            ├── libcopyfile.dylib
+            ├── libcorecrypto.dylib
+            ├── libdispatch.dylib
+            ├── libdnsinfo.dylib
+            ├── libdyld.dylib
+            ├── libkeymgr.dylib
+            ├── liblaunch.dylib
+            ├── libmacho.dylib
+            ├── libremovefile.dylib
+            ├── libsystem_blocks.dylib
+            ├── libsystem_c.dylib
+            ├── libsystem_dnssd.dylib
+            ├── libsystem_info.dylib
+            ├── libsystem_kernel.dylib
+            ├── libsystem_m.dylib
+            ├── libsystem_network.dylib
+            ├── libsystem_notify.dylib
+            ├── libsystem_sandbox.dylib
+            ├── libunwind.dylib
+            └── libxpc.dylib
+
+6 directories, 33 files
