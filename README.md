@@ -10,6 +10,12 @@ Prereq: iOS 6 device with JB
 2. chroot .
 3. enjoy!
 
+OR
+
+1. cd MB-iOS 
+2. sudo make
+3. enjoy!
+
 You can install additional files from iOS 6.1 SDK. 
 
 ## What's included
